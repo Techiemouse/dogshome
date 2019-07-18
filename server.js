@@ -5,7 +5,6 @@ const http = require('http');
 const bodyParser = require('body-parser');
 
 // Get our API routes
-console.log('++++before server in server')
 const api = require('./server/routes/api');
 const app = express();
 // Parsers for POST data

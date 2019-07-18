@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'dogshome';
+  title = 'Dogs Home';
+  walkerId='';
+  setId(newId: string) {
+    this.walkerId = newId;
+    console.log('id entered', newId)
+  }
 }
